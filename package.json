@@ -184,7 +184,7 @@
     "rollup": "^4.60.2",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.18",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.20-alpha.4",
     "vite-plugin-inspect": "catalog:",
     "vite-plus": "catalog:",
     "vue": "^3.5.32",
