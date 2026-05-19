@@ -4,10 +4,10 @@ packages:
   - client
 catalog:
   nuxt: ^4.4.4
-  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vite: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1633
   vite-plugin-inspect: ^11.3.3
-  vite-plus: ^0.1.20
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite-plus: https://pkg.pr.new/voidzero-dev/vite-plus@1633
+  vitest: https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1633
 
 ignoreWorkspaceRootCheck: true
 overrides:
@@ -22,3 +22,7 @@ peerDependencyRules:
 shamefullyHoist: true
 onlyBuiltDependencies:
   - esbuild
+minimumReleaseAge: 4320
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
