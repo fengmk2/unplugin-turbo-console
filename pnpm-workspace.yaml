@@ -4,14 +4,15 @@ packages:
   - client
 catalog:
   nuxt: ^4.4.4
-  vite: npm:@voidzero-dev/vite-plus-core@latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.333e612a4d9d966e79724c336ba7bf422f79b442
   vite-plugin-inspect: ^11.3.3
-  vite-plus: ^0.1.20
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
+  vite-plus: 0.0.0-commit.333e612a4d9d966e79724c336ba7bf422f79b442
+  vitest: 4.1.9
 
 ignoreWorkspaceRootCheck: true
 overrides:
   vitest: 'catalog:'
+  vite: 'catalog:'
 peerDependencyRules:
   allowAny:
     - vite
@@ -22,3 +23,7 @@ peerDependencyRules:
 shamefullyHoist: true
 onlyBuiltDependencies:
   - esbuild
+  - '@sveltejs/kit'
+  - sharp
+  - vue-demi
+  - svelte-preprocess
